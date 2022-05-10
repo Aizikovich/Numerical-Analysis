@@ -1,6 +1,3 @@
-"""
-In this assignment you should find the intersection points for two functions.
-"""
 import copy
 import math
 import time
