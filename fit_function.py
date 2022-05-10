@@ -1,22 +1,3 @@
-"""
-In this assignment you should fit a model function of your choice to data 
-that you sample from a given function. 
-
-The sampled data is very noisy so you should minimize the mean least squares 
-between the model you fit and the data points you sample.  
-
-During the testing of this assignment running time will be constrained. You
-receive the maximal running time as an argument for the fitting method. You 
-must make sure that the fitting function returns at most 5 seconds after the 
-allowed running time elapses. If you take an iterative approach and know that 
-your iterations may take more than 1-2 seconds break out of any optimization 
-loops you have ahead of time.
-
-Note: You are NOT allowed to use any numeric optimization libraries and tools 
-for solving this assignment. 
-
-"""
-
 import numpy as np
 import time
 
