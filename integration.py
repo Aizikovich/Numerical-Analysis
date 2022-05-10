@@ -1,21 +1,3 @@
-"""
-In this assignment you should find the area enclosed between the two given functions.
-The rightmost and the leftmost x values for the integration are the rightmost and 
-the leftmost intersection points of the two functions. 
-
-The functions for the numeric answers are specified in MOODLE. 
-
-
-This assignment is more complicated than Assignment1 and Assignment2 because: 
-    1. You should work with float32 precision only (in all calculations) and minimize the floating point errors. 
-    2. You have the freedom to choose how to calculate the area between the two functions. 
-    3. The functions may intersect multiple times. Here is an example: 
-        https://www.wolframalpha.com/input/?i=area+between+the+curves+y%3D1-2x%5E2%2Bx%5E3+and+y%3Dx
-    4. Some of the functions are hard to integrate accurately. 
-       You should explain why in one of the theoretical questions in MOODLE. 
-
-"""
-
 import numpy as np
 import intersections_finder
 
